@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UNSCHOOL</title>
+        <style>
+            header{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.shutterstock.com/image-photo/elearning-education-internet-lessons-online-260nw-2158034833.jpg");
+                background-size: cover;
+                background-position: center;
+                height: 98vh;
+                min-height: 100px;
+            }
+           .main ul{
+                float: right;
+                margin-top: 30px;
+                margin-right: 60px;
+                list-style-type: none;
+                min-height: 400px;
+                font-size: 17px;
+            }
+            .main ul li{
+                display: inline-block;
+            }
+            .main ul li a{
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 30px;
+                border:1px solid transparent;
+                transition: o.5 ease;
+            }
+            .main ul li a:hover{
+                background-color: #fff;
+                color: #000;
+            }
+            .main ul li.active a {
+                background-color: #fff;
+                border: 2px solid black;
+                color: #000;
+            }
+            .logo img{
+                float: left;
+                width: 350px;
+            }
+
+            .title{
+                position: absolute;
+                top: 35%;
+                left: 35%;
+                text-align: center;
+            }
+            .title h1 {
+                color: #fff;
+                font-size: 40px;
+            }
+            .title p {
+                color: #fff;
+                font-size: 20px;
+            }
+            .main ul li a select{
+                width:70%;
+                font-size: 20px;
+                text-align: center;
+            }
+            .main ul li a input{
+                border: 2px solid black;
+                font-size: 12px;
+                padding: 5px 5px;
+               
+            } 
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                   <img src="https://dwlzxxq1p132q.cloudfront.net/skill_courses/business/Unschool_logo_dark.png">
+                </div>
+                <ul>
+                    <li class="active"><a href="#">HOME</a></li>            
+                    <li><a href="./About.html">ABOUT</a></li> 
+                    <li><a href="#"><select name="COURSES">
+                        <option>Course</option>
+                        <option>Java And Python</option>
+                        <option>Web Development</option>
+                        <option>Ethical Hacking</option>
+                        <option>Cyber Security</option>
+                        <option>Data Sciences</option>
+                        <option>Digital Marketing</option>
+                        <option>Softskills</option>
+                        <option>Personal Development</option>
+                        <option>Full Stack Development</option>
+                    </select></a></li>           
+                    <li><a href="./Contact.html">CONTACT</a></li>            
+                    <li><a href="./login.html">LOGIN</a></li> 
+                    <li> <a href="#"><input type="text" placeholder="search"></a></li>           
+                   
+                </ul>
+            </div>
+            <div class="title">
+                <h1>India's First Streaming<br>
+                     Platform For Learning</h1>
+                 <p>A platform to learn new things, upskill your career,get placed</p>
+            </div> 
+        </header>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <style>
+         header{
+            background-color:cadetblue;
+            height: 98vh;
+            min-height: 100px;
+        }
+       .main ul{
+            float: right;
+            margin-top: 30px;
+            margin-right: 60px;
+            list-style-type: none;
+            min-height: 400px;
+            font-size: 17px;
+        }
+        .main ul li{
+            display: inline-block;
+        }
+        .main ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 30px;
+            border:1px solid transparent;
+            transition: o.5 ease;
+        }
+        .main ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        .main ul li.active a {
+            background-color: #fff;
+            border: 2px solid black;
+            color: #000;
+        }
+        .logo img{
+            float: left;
+            width: 350px;
+        }
+        .contact{
+            position: absolute;
+            top: 10%;
+            left:18%;
+            text-align: center;
+            color:#fff;
+        }
+        .contact h1{
+            font-size: 40px;
+            color: firebrick;
+        }
+        .contact p{
+            font-size: 25px;
+            color:#000;
+        }
+        .contact form{
+            font-size: 20px;
+            color:maroon;
+        }
+        .contact form input[type=text],input[type=number]{
+            width: 50%;
+            padding: 2px 4px;
+            box-sizing: border-box;
+            border: 2px solid black;
+        }
+        .contact form input[type=submit],input[type=reset]{
+            font-size: 22px;
+            color: chocolate;
+            border: 2px solid black;
+            padding: 4px 8px;
+        }
+        .main ul li a select{
+                width:70%;
+                font-size: 20px;
+                text-align: center;
+        } 
+        .main ul li a input{
+                border: 2px solid black;
+                font-size: 12px;
+                padding: 5px 5px;
+        } 
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="main">
+               <div class="logo">
+                  <img src="https://dwlzxxq1p132q.cloudfront.net/skill_courses/business/Unschool_logo_dark.png">
+               </div>
+                <ul>
+                   <li><a href="Unschool.html">HOME</a></li>            
+                   <li><a href="./About.html">ABOUT</a></li> 
+                   <li><a href="#"><select name="COURSES">
+                    <option>Course</option>
+                    <option>Java And Python</option>
+                    <option>Web Development</option>
+                    <option>Ethical Hacking</option>
+                    <option>Cyber Security</option>
+                    <option>Data Sciences</option>
+                    <option>Digital Marketing</option>
+                    <option>Softskills</option>
+                    <option>Personal Development</option>
+                    <option>Full Stack Development</option>
+                </select></a></li>                 
+                   <li class="active"><a href="#">CONTACT</a></l                                                          i>            
+                   <li><a href="./login.html">LOGIN</a></li>            
+                   <li> <a href="#"><input type="text" placeholder="search"></a></li>            
+               </ul>
+            </div>
+            <div class="contact">
+                <h1>Get in touch with us</h1>
+                <p>Reach out to us to say hello or for all your queries.We usually take 48 hours to respond.
+                  </p>
+                <form>
+                    Name:<br>
+                    <input type="text"  name="name"><br><br>
+                    Email:<br>
+                    <input type="text"  name="email"><br><br>
+                    Mobile Number:<br>
+                    <input type="number" name="phno"><br><br>
+                    Your Query:<br>
+                    <input type="text"  name="query"><br><br>
+                    Your Message:<br>
+                    <input type="text"  name="msg"><br><br>
+                    <input type="submit" value="send">&nbsp;
+                      &nbsp; &nbsp;
+                    <input type="reset" value="clear">
+                </form>
+                <p>email: support@unschool.in  &nbsp; &nbsp;&nbsp;  cell: +91 9154254541 &nbsp;&nbsp;&nbsp;  address: Gachibowli,Hyderabad,500032</p>
+            </div>
+        </header>   
+    </body>
+</html>
